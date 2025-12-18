@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 app.get('/', (req, res) => {
-    res.send('Hello World! testing github actions');
+    res.send('Hello World! testing github actions2');
 });
 app.listen(port, () => {
 
